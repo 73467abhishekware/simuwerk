@@ -1,21 +1,9 @@
-// components/ScrollGear.jsx
-// A 3D SVG gear that rotates as the user scrolls down the page.
-// Drop this anywhere in your layout — it floats fixed on screen.
-//
-// Dependencies: framer-motion → npm install framer-motion
-// Usage: <ScrollGear /> anywhere in App.jsx (outside section flow)
 
-import { useEffect, useRef } from "react";
+
+
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 
-/* ─────────────────────────────────────────────
-   Build a gear SVG path programmatically.
-   teeth     — number of teeth
-   r_outer   — outer (tip) radius
-   r_inner   — root circle radius
-   r_bore    — center hole radius
-   cx, cy    — center
-───────────────────────────────────────────── */
+
 function gearPath({ teeth = 16, rOuter = 90, rInner = 72, rBore = 22, cx = 100, cy = 100 } = {}) {
   const pts = [];
   const toothAngle = (Math.PI * 2) / teeth;

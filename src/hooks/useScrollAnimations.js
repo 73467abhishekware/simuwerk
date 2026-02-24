@@ -1,10 +1,4 @@
-// hooks/useScrollAnimations.js
-// ─────────────────────────────────────────────────────────────
-// Central scroll animation system for Simuwerk India
-// Usage: import any hook/component you need from this file
-//
-// Dependencies: framer-motion → npm install framer-motion
-// ─────────────────────────────────────────────────────────────
+
 
 import {
   useScroll,
@@ -12,9 +6,9 @@ import {
   useSpring,
   useInView,
   motion,
-  AnimatePresence,
+  
 } from "framer-motion";
-import { useRef, useEffect, useState } from "react";
+import { useRef } from "react";
 
 /* ══════════════════════════════════════════════════════════════
    1. useParallax — element cha Y shift scroll pramaane
