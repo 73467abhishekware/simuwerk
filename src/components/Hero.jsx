@@ -3,7 +3,7 @@
 // Fonts: Add to index.html <head>:
 // <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet"/>
 
-import { motion, useMotionValue, useTransform, animate } from "framer-motion";
+import { motion,  animate } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
 /* ── Animated counter hook ─────────────────────────── */

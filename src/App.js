@@ -40,8 +40,7 @@ import Industries      from './components/Industries';
 import CFDSection      from './components/CFDSection';
 import SugarIndustry   from './components/SugarIndustry';
 import FEASection      from './components/FEASection';
-import ValueDelivered  from './components/ValueDelivered';
-import Platforms       from './components/Platforms';
+
 import Contact         from './components/Contact';
 import Footer          from './components/Footer';
 import ScrollGear      from './components/ScrollGear';
