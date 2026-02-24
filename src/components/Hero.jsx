@@ -4,7 +4,7 @@
 // <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet"/>
 
 import { motion,  animate } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 /* ── Animated counter hook ─────────────────────────── */
 function useCounter(target, duration = 2, startDelay = 0.8) {

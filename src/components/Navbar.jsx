@@ -51,7 +51,7 @@
 // Frosted glass navbar — transparent at top, blur+border on scroll
 // Dependencies: framer-motion → npm install framer-motion
 
-import { motion, useScroll, useTransform, useSpring } from "framer-motion";
+import { motion, useScroll, useSpring } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const navLinks = [

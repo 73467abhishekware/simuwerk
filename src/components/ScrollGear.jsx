@@ -16,10 +16,10 @@ function gearPath({ teeth = 16, rOuter = 90, rInner = 72, rBore = 22, cx = 100, 
     // Root → left flank → tip → right flank → root
     const a0 = base;
     const a1 = base + quarter * 0.7;
-    const a2 = base + quarter * 1.0;
+    // const a2 = base + quarter * 1.0;
     const a3 = base + quarter * 1.0 + half * 0.6;
     const a4 = base + quarter * 1.0 + half * 0.6 + quarter * 0.4;
-    const a5 = base + toothAngle;
+    // const a5 = base + toothAngle;
 
     const pt = (r, angle) => [
       cx + r * Math.cos(angle),
